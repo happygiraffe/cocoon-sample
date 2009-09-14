@@ -25,7 +25,7 @@
                            http://cocoon.apache.org/schema/servlet http://cocoon.apache.org/schema/servlet/cocoon-servlet-1.0.xsd">
 
   <bean name="com.mycompany.myBlock1.service" class="org.apache.cocoon.sitemap.SitemapServlet">
-    <servlet:context mount-path="/myBlock1" context-path="blockcontext:/myBlock1/">
+    <servlet:context mount-path="" context-path="blockcontext:/myBlock1/">
       <servlet:connections>
         <entry key="myBlock2" value-ref="com.mycompany.myBlock2.service"/>
       </servlet:connections>
