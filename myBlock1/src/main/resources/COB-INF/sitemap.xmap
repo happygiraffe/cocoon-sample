@@ -36,6 +36,11 @@
         <map:transform src="myXsltFile.xslt" type="xslt"/>
         <map:serialize type="html"/>
       </map:match>
+      <map:match pattern="myThirdPipeline">
+        <map:generate src="myXmlFile.xml" type="file"/>
+        <map:transform src="myXml2PdfFile.xslt" type="xslt"/>
+        <map:serialize type="fo2pdf"/>
+      </map:match>
     </map:pipeline>
 
     <!--+

@@ -55,6 +55,11 @@
       <version>2.4</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>org.apache.cocoon</groupId>
+      <artifactId>cocoon-fop-impl</artifactId>
+      <version>1.0.0</version>
+    </dependency>
   </dependencies>
 
   <build>
