@@ -49,11 +49,16 @@
   </build>
 
   <dependencies>
-    <!--dependency>
+    <dependency>
       <groupId>com.mycompany</groupId>
-      <artifactId>[the artifact id of the block to be mounted]</artifactId>
+      <artifactId>myBlock1</artifactId>
       <version>1.0-SNAPSHOT</version>
-    </dependency-->
+    </dependency>
+    <dependency>
+      <groupId>com.mycompany</groupId>
+      <artifactId>myBlock2</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
 </project>
