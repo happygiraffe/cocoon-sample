@@ -25,6 +25,14 @@
   <map:flow language="javascript"/>
 
   <map:pipelines>
+
+    <map:pipeline>
+      <map:match pattern="myFirstPipeline">
+        <map:generate src="myXmlFile.xml" type="file"/>
+        <map:serialize type="xml"/>
+      </map:match>
+    </map:pipeline>
+
     <!--+
         | Demo pipelines
         +-->
