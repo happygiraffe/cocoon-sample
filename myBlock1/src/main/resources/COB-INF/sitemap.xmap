@@ -41,6 +41,10 @@
         <map:transform src="myXml2PdfFile.xslt" type="xslt"/>
         <map:serialize type="fo2pdf"/>
       </map:match>
+      <map:match pattern="callingBlock2">
+        <map:generate src="servlet:myBlock2:/spring-bean" type="file"/>
+        <map:serialize type="xml"/>
+      </map:match>
     </map:pipeline>
 
     <!--+
