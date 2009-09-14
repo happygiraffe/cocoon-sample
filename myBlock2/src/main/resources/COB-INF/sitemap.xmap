@@ -25,6 +25,13 @@
   <map:flow language="javascript"/>
 
   <map:pipelines>
+    <map:pipeline>
+      <map:match pattern="myXsltTransformation-service">
+        <map:generate src="service-consumer:"/>
+        <map:transform src="myXsltTransformation.xslt"/>
+        <map:serialize type="xml"/>
+      </map:match>
+    </map:pipeline>
     <!--+
         | Demo pipelines
         +-->
